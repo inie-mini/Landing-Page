@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ragofu | 3D printing service</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <header class="container flex" id="header">
+        <div class="logo flex">
+          <img
+            id="header-img"
+            src="https://image.flaticon.com/icons/png/512/44/44231.png"
+            alt="logo"
+          />
+          <h1 class="header-text">Ragofu.</h1>
+        </div>
+        <nav class="nav-bar flex" id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#why">Why us?</a></li>
+            <li><a class="nav-link" href="#tech">Technology</a></li>
+            <li><a class="nav-link" href="#port">Portfolio</a></li>
+            <li><a class="nav-link" href="#show">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <main>
+      <section class="showcase" id="show">
+        <div class="container grid">
+          <div class="showcase-text">
+            <h2>Print everything you want</h2>
+            <p>
+              We have multiple 3D-printers, each with it's own unique
+              capabilities. <br />
+              If you want to know what's possible, please don't hesitate to
+              contact us.
+            </p>
+          </div>
+          <div class="showcase-form card">
+            <h2>Contact Form</h2>
+            <form id="form">
+              <div class="form-control">
+                <input
+                  type="text"
+                  class="name"
+                  id="name"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <input
+                  type="text"
+                  class="comp-name"
+                  id="comp-name"
+                  placeholder="Company Name"
+                />
+              </div>
+              <div class="form-control">
+                <input
+                  type="email"
+                  name="email"
+                  class="email"
+                  id="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <input
+                  type="submit"
+                  class="btn-light"
+                  id="submit"
+                  value="Send"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="middle" id="why">
+        <div class="container grid">
+          <div class="middle-block flex">
+            <img
+              src="https://pics.freeicons.io/uploads/icons/png/18591605221552994182-512.png"
+              alt=""
+            />
+            <h2>Fast Delivery</h2>
+          </div>
+          <div class="middle-block flex">
+            <img
+              src="https://pics.freeicons.io/uploads/icons/png/10905831351552994196-512.png"
+              alt=""
+            />
+            <h2>Best Quality</h2>
+          </div>
+          <div class="middle-block flex">
+            <img
+              src="https://pics.freeicons.io/uploads/icons/png/1537665041552994198-512.png"
+              alt=""
+            />
+            <h2>Satisfaction Guaranty</h2>
+          </div>
+        </div>
+      </section>
+      <section class="technology" id="tech">
+        <div class="container grid">
+          <div>
+            <h2>A little explaining of the magic</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Excepturi, perspiciatis consectetur itaque corrupti debitis
+              nostrum saepe repudiandae nobis consequuntur exercitationem.
+            </p>
+          </div>
+
+          <iframe
+            id="video"
+            src="https://www.youtube.com/embed/Vx0Z6LplaMU"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section class="portfolio" id="port">
+        <div class="container flex wrap">
+          <div class="port-case" id="case1">
+            <div class="portfolio-text">
+              <h3>Battery holder</h3>
+            </div>
+            <div class="portfolio-img">
+              <img
+                src="https://fossbytes.com/wp-content/uploads/2019/11/Highly-USeful-3d-prints-1200x900.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="port-case" id="case2">
+            <div class="portfolio-text">
+              <h3>Phone cases</h3>
+            </div>
+            <div class="portfolio-img">
+              <img
+                src="http://www.3digiprints.com/images/3d-printed-mobile-case.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="port-case" id="case3">
+            <div class="portfolio-text">
+              <h3>Guitar</h3>
+            </div>
+            <div class="portfolio-img">
+              <img
+                src="https://www.allthat3d.com/wp-content/uploads/2016/04/Guitars-1.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="port-case" id="case4">
+            <div class="portfolio-text">
+              <h3>Prosthesis</h3>
+            </div>
+            <div class="portfolio-img">
+              <img
+                src="https://www.emergingedtech.com/wp/wp-content/uploads/2015/07/robohand.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="port-case" id="case5">
+            <div class="portfolio-text">
+              <h3>Clocks</h3>
+            </div>
+            <div class="portfolio-img">
+              <img
+                src="https://blog-assets.pinshape.com/blog/wp-content/uploads/2017/03/01135504/marchdotm.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+  </body>
+</html>
